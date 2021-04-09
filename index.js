@@ -65,13 +65,13 @@ function handleSymbol(value) {
       break;
 
     case "DEL":
-      if (buffer.runningTotal === 1) {
+      if (buffer.length === 1) {
         buffer = "0";
       } else {
         buffer = buffer.substring(0, buffer.length - 1);
       }
-        break;
-
+      break;
+  
     case "=":
       if (previousOperator === null) {
         // need two numbers to do math
