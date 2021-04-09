@@ -1,12 +1,14 @@
 body {
     overflow: hidden;
     margin: 50px;
+    background: linear-gradient(to right, #111213, #9ac4aa);
 }
 
 .wrapper {
     margin: auto;
-    width: 400px;
-    background-color: black;
+    width: 300px;
+    border-radius: 30px;
+    background-color: rgb(34, 32, 32);
     padding: 60px 10px 10px 10px;
 }
 
@@ -15,13 +17,13 @@ body {
     font-size: 60px;
     font-family: "Courier New", Courier, monospace;
     text-align: right;
-    padding: 20px 25px;  
+    padding: 30px 25px;  
 
 }
 
 .button {
-    width: 90px;
-    height: 90px;
+    width: 65px;
+    height: 65px;
     margin: 3px;
     border: none;
     border-radius: 60%;
@@ -48,7 +50,7 @@ body {
 
 
 .number {
-    background-color: #312f2f;
+    background-color: #0e0d0d;
     color:#f5f5fc;
     font-weight: 300;
     font-size: 1.8rem;
@@ -58,24 +60,24 @@ body {
 }
 
 .button-rows .number:hover {
-    background-color: #807a7a;
+    background-color: #080808
 }
 
 .button-rows .all-clear:hover {
     border: none;
-    background-color: #dedeee;
+    background-color: #9ac4aa;
 }
 
-.button-rows .plusmn:hover {
-    background-color: #dedeee;
+.button-rows .delete:hover {
+    background-color: #9ac4aa;
 }
 
 .button-rows .percent:hover {
-    background-color: #dedeee;
+    background-color: #9ac4aa;
 }
 .double {
-    width: 190px;
-    height: 80px;
+    width: 140px;
+    height: 60px;
     margin: 3px;
     border: none;
     border-radius: 50px;
@@ -83,13 +85,3 @@ body {
     padding-left: 40px;
   
 }
-  
-    
-
-
-
-
-
-
-
-
