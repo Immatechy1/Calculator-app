@@ -95,6 +95,4 @@ function handleSymbol(value) {
     screen.innerText = buffer;
   }
   
-  
-
   init()
